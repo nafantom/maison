@@ -1,0 +1,113 @@
+@media (max-width: 1200px) {
+    .smart_title {
+        font-size: 30px;
+    }
+
+    .smart_text {
+        font-size: 20px;
+    }
+
+    .handsome_title {
+        font-size: 30px;
+    }
+
+    .handsome_text {
+        width: 700px;
+        font-size: 20px;
+    }
+
+    .handsome_fingerprint {
+        font-size: 60px;
+    }
+
+    .bathrooms1 {
+        flex-direction: column;
+    }
+
+    .img1,
+    .img5 {
+        width: 100%;
+    }
+
+    .bathrooms1_others,
+    .bathrooms2_others {
+        width: 100%;
+        display: flex;
+    }
+
+    .bathrooms2_others {
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 992px) {
+    .header_nav {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 756px) {
+    .header_list {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .smart {
+        padding: 155px 133px;
+    }
+
+    .smart_title {
+        font-size: 20px;
+    }
+
+    .smart_text {
+        width: 400px;
+        font-size: 15px;    
+    }
+
+    .handsome_text{
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .handmade_texts,
+    .woodworking_texts,
+    .studio_texts {
+        padding: 55px 115px 102px 30px;
+    }
+
+    .handmade_title,
+    .woodworking_title,
+    .studio_title{
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 576px){
+    .smart_title{
+        text-align;
+        width: 200%;
+    }
+
+    .handmade_text,
+    .woodworking_text,
+    .studio_text{
+        width: 200px;
+    }
+
+    .handsome_title{
+        font-size: 20px;
+    }
+
+    .handsome_text{
+        width: 300px;
+        text-align: center;
+    }
+
+    .footer_input{
+        padding: 12px 118px 12px 15px;
+    }
+
+}
